@@ -464,7 +464,7 @@ $instructor_details = $this->user_model->get_all_user($course_details['user_id']
             <?php else : ?>
 
               <!-- WISHLIST BUTTON -->
-              <div class="buy-btns">
+              <!-- <div class="buy-btns">
                 <button class="btn btn-add-wishlist <?php echo $this->crud_model->is_added_to_wishlist($course_details['id']) ? 'active' : ''; ?>" type="button" id="<?php echo $course_details['id']; ?>" onclick="handleAddToWishlist(this)">
                   <?php
                   if ($this->crud_model->is_added_to_wishlist($course_details['id'])) {
@@ -474,7 +474,7 @@ $instructor_details = $this->user_model->get_all_user($course_details['user_id']
                   }
                   ?>
                 </button>
-              </div>
+              </div> -->
 
               <?php if ($course_details['is_free_course'] == 1) : ?>
                 <div class="buy-btns">

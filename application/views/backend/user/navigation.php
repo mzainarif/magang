@@ -30,13 +30,13 @@ $status_wise_courses = $this->crud_model->get_status_wise_courses();
 					<span><?php echo get_phrase('course_manager'); ?></span>
 				</a>
 			</li>
-			<li class="side-nav-item">
+			<!-- <li class="side-nav-item">
 				<a href="<?php echo site_url('user/sales_report'); ?>" class="side-nav-link <?php if ($page_name == 'report' || $page_name == 'invoice') echo 'active'; ?>">
 					<i class="dripicons-to-do"></i>
 					<span><?php echo get_phrase('sales_report'); ?></span>
 				</a>
-			</li>
-			<li class="side-nav-item">
+			</li> -->
+			<!-- <li class="side-nav-item">
 				<a href="<?php echo site_url('user/payout_report'); ?>" class="side-nav-link <?php if ($page_name == 'payout_report' || $page_name == 'invoice') echo 'active'; ?>">
 					<i class="dripicons-shopping-bag"></i>
 					<span><?php echo get_phrase('payout_report'); ?></span>
@@ -47,7 +47,7 @@ $status_wise_courses = $this->crud_model->get_status_wise_courses();
 					<i class="dripicons-gear"></i>
 					<span><?php echo get_phrase('payout_settings'); ?></span>
 				</a>
-			</li>
+			</li> -->
 		<?php else : ?>
 			<li class="side-nav-item">
 				<a href="<?php echo site_url('user/become_an_instructor'); ?>" class="side-nav-link <?php if ($page_name == 'become_an_instructor') echo 'active'; ?>">

@@ -30,9 +30,9 @@
             </div>
           <?php endif; ?>
 
-          <div class="cart-box menu-icon-box" id = "cart_items">
-            <?php include 'cart_items.php'; ?>
-          </div>
+          <!-- <div class="cart-box menu-icon-box" id = "cart_items">
+             //php include 'cart_items.php'; 
+          </div> -->
 
           <span class="signin-box-move-desktop-helper"></span>
           <div class="sign-in-box btn-group">

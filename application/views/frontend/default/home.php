@@ -25,7 +25,7 @@
 </section>
 <section class="home-fact-area">
     <div class="container-lg">
-        <div class="row">
+        <div   class="row">
             <?php $courses = $this->crud_model->get_courses(); ?>
             <div class="col-md-4 d-flex">
                 <div class="home-fact-box mr-md-auto mr-auto">

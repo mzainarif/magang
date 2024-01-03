@@ -740,5 +740,12 @@
     "continuously_enhancing_one&#039;s_competencies.": "Continuously enhancing one&#039;s competencies.",
     "explore_internship_opportunities_to_enhance_your_learning_and_development_at_our_learning_center!": "Explore internship opportunities to enhance your learning and development at our learning center!",
     "social_login_settings_updated_successfully": "Social login settings updated successfully",
-    "magang_learning_management_system": "Magang learning management system"
+    "magang_learning_management_system": "Magang learning management system",
+    "course_name": "Course name",
+    "request_a_new_withdrawal": "Request a new withdrawal",
+    "pending_amount": "Pending amount",
+    "total_payout_amount": "Total payout amount",
+    "date_processed": "Date processed",
+    "no_secret_key_found": "No secret key found",
+    "student_has_been_enrolled_to_that_course": "Student has been enrolled to that course"
 }

@@ -99,8 +99,8 @@ if (isset($sub_category_id)) {
                                 </ul>
                                 <a href="javascript::" id="city-toggle-btn" onclick="showToggle(this, 'hidden-categories')" style="font-size: 12px;"><?php echo $total_number_of_categories > $number_of_visible_categories ? site_phrase('show_more') : ""; ?></a>
                             </div>
-                            <hr>
-                            <div class="filter_type">
+                            <!-- <hr> -->
+                            <!-- <div class="filter_type">
                                 <div class="form-group">
                                     <h6><?php echo site_phrase('price'); ?></h6>
                                     <ul>
@@ -120,7 +120,7 @@ if (isset($sub_category_id)) {
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> -->
                             <hr>
                             <div class="filter_type">
                                 <h6><?php echo site_phrase('level'); ?></h6>
